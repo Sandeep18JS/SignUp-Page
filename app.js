@@ -35,11 +35,11 @@ const url ="https://us21.api.mailchimp.com/3.0/lists/377551f162";
 
 const options= {
   method: "POST",
-  auth: "sandeep1:b4509de29756aea111112f44ad77e092-us21"
+  auth: "ffefae5a019d9e9a96e36ffa423ae5cd-us21"
 }
 const request = https.request(url,options,function(response){
 
-  if( response.statuCode===200){
+  if( response.statusCode===200){
     res.sendFile(__dirname+"/success.html");
   } else {
 res.sendFile(__dirname+"/failure.html");
@@ -65,7 +65,7 @@ app.listen(process.env.PORT || 3000,function(){
 });
 
 // api key
-// b4509de29756aea111112f44ad77e092-us21
+// ffefae5a019d9e9a96e36ffa423ae5cd-us21
 
  //list id
  // 377551f162.
