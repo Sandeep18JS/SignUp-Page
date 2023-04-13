@@ -32,10 +32,9 @@ members:[
 const jsonData = JSON.stringify(data);
 
 const url ="https://us21.api.mailchimp.com/3.0/lists/377551f162";
-
 const options= {
   method: "POST",
-  auth: "ffefae5a019d9e9a96e36ffa423ae5cd-us21"
+  auth: "6081d956d60b3ece37a652310a065a0f-us21"
 }
 const request = https.request(url,options,function(response){
 
