@@ -63,8 +63,3 @@ app.listen(process.env.PORT || 3000,function(){
   console.log("srver rng");
 });
 
-// api key
-// ffefae5a019d9e9a96e36ffa423ae5cd-us21
-
- //list id
- // 377551f162.
